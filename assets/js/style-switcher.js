@@ -4,7 +4,23 @@ $(function() {
     // $('head').append('<script type="text/javascript" src="assets/css/colors/jquery.cookie.min.js"></script>');
 
     //Style container
-    var switcher = $('<div class="switcher"><span class="switch"><i class="fas fa-cog fa-spin"></i></span><h4>Color Options</h4><hr><div class="s-color"><a href="#" data-code="default"></a><a href="#" data-code="color-1"></a><a href="#" data-code="color-2"></a><a href="#" data-code="color-3"></a><a href="#" data-code="color-4"></a><a href="#" data-code="color-5"></a></div><div class="layout-btn-group"><ul><li><button id="box-layout">Box width</button></li><li><button id="full-width">full width</button></li></ul></div></div>');
+    var switcher = $(`<div class="switcher"><span class="switch"><i class="fas fa-cog fa-spin"></i></span><div><p>
+														All podcast get their own page which is constantly updated with their recent episode 
+														detail. 
+													</p>
+													<p>
+														Also all users get to select the podcast that they constantly listen to, and 
+														therefore after every podcast episode, users who have been identified as having a preferential
+														for that podcast are notified to help select the name of the person that they think the recent 
+														guest was from a list of all users and also to vote on already selected guest names in the guest name poll.
+													</p>
+													<p>
+														And therfore the selected guest with the highest vote after a day or so is determined to 
+														have been the guest on that episode. Of course the owner of the podcast gets to veto select the guest who attended his podcast.
+													</p>
+													<br><br>
+													</div>
+												</div>`);
 
     $('body').append(switcher);
 

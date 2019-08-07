@@ -44,7 +44,7 @@ body.box-layout .header-section {
 
 .switcher {
     top: 170px;
-    left: -251px;
+    left: 0px;
     width: 250px;
     z-index: 1080;
     position: fixed;
